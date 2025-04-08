@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        HTML Lists, Images, Tables & Forms
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Kaylan's Beauty Emporium</h1>
+        <h3>Beauty Make-up Products</h3>
+        <ol type="i" start="1">
+            <li>Primer</li>
+            <li>Foundation</li>
+            <li>Concealer</li>
+            <li>Blush</li>
+            <li>Setting spray</li>
+        </ol>
+        <img src="https://images.pexels.com/photos/13068375/pexels-photo-13068375.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Make-up Library with Accessories">
+
+        <h1>Beautician Contact List</h1>
+        <table border="3">
+        <caption>Pick Your Very Own Personal Beautician!</caption>
+        <tr>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Adress</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+        </tr>
+        <tbody>
+            <tr>
+                <td>Kaylan Obama</td>
+                <td>32 Alexander Rd, NYC</td>
+                <td>056 335 4470</td>
+                <td>kaylan@icloud.com</td>
+            </tr>
+            <tr>
+                <td>Gloria Smith</td>
+                <td>45 Ham Street, Texas</td>
+                <td>011 458 2344</td>
+                <td>gloria@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Katy White</td>
+                <td>95 Birdming Street, Los Angles</td>
+                <td>025 789 1110</td>
+                <td>katywhite@icloud.com</td>
+            </tr>
+            <tr>
+                <td>Perry Fling</td>
+                <td>66 Palmer Road, Los Angles</td>
+                <td>044 125 6399</td>
+                <td>perryfling@outlook.com</td>
+            </tr>
+            <tr>
+                <td>Nicki Flinstone</td>
+                <td>85 Bayfield Street, Florida</td>
+                <td>056 989 2341</td>
+                <td>nickiflinstone@icloud.com</td>
+            </tr>
+            
+        </tbody>
+        </table>
+        <h1>Registration Forms</h1>
+        <form> Name
+            <label>
+                <input type="text" id="client name" name="Name" required> 
+            </label>
+            <br><br>
+            <label>Email
+                <input type="text" id="client email" name="email" required>
+            </label>
+            <br><br>
+            <label>Password
+                <input type="text" id="client password name=password " required>
+            </label>
+            <br><br>
+        
+            <label>Date
+                <input type="text" id="date" name="date" required>
+            </label>
+            <br><br>
+
+            <label for="interests">Interests</label>
+            <input type="checkbox" name="interests" value="skincare"> Skincare
+            <input type="checkbox" name="interests" value="make-up"> Make-up
+            <input type="checkbox" name="interests" value="other cosmetics"> Other cosmetics
+            <br><br>
+            <label for="gender">Gender</label>
+            <input type="radio" id="gender" name="gender" value="Female"> Female
+            <input type="radio" id="gender"name=gender value="Male"> Male
+            <label for="country" required></label>
+            <select name="country" id="country">
+            <option>--Select Country--</option>
+            <option value="South Africa">South Africa</option>
+            <option value="South America">South America</option>
+            <option value="North America">North America</option>
+            <option value="Canada">Canada</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="Zimbabwe">Zimbabwe</option>
+            </select>
+            <br><br>
+            <br><br>
+            <label for="additional message">Message</label>
+            <textarea id="additional message" name="message"></textarea>
+            <br><br>
+            <button>Register</button>
+            <input type="button" value="Cancel">
+
+
+
+
+        </form>
+    </body>
+
+</html>

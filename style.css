@@ -1,0 +1,31 @@
+form{
+    background-image: url('images/makeup2.jpg');
+    background-repeat: no-repeat;
+    background-size: 700px 1000px;
+    background-position: left;
+}
+
+form{
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(58, 3, 58);
+    border-radius: 20px;
+    padding: 50px;
+}
+body{
+    font-family: "Lucida Handwriting", cursive;
+}
+
+h1{
+    border-style: solid;
+    border width: 4px;
+    border-color: pink;
+    border-radius: 20px;
+}
+
+p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
